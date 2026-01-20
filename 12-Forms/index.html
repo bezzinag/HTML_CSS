@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Forms and HTML</title>
+
+    </head>
+
+    <body>
+        <form action="index.php" method="post">
+            
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="username" minlength="6" required> 
+            <br>
+            <label for="password">password: </label>
+            <input type="password" id="password" minlength="6" required>
+            <br>
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="email@example.com" required>
+            <br>
+            <label for="phone">phone</label>
+            <input type="tel"  id="phone" placeholder="79808999">
+            <br>
+            <label for="bday">Birthday</label>
+            <input type="date" id="bday">
+            <br>
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity">
+            <br>
+
+            <label for="Mr">Mr.</label>
+            <input type="radio" id="Mr" value="Mr" name="title">
+            <label for="Ms">Ms.</label>
+            <input type="radio" id="Ms" value="Ms" name="title">
+            <label for="Dr">Dr.</label>
+            <input type="radio" id="Dr" value="Dr" name="title">
+            <br>
+
+            <label for="Receive">Receive email</label>
+            <input type="checkbox" id="Receive">
+            <br>
+            
+            
+            
+            
+            <input type="reset">
+            <input type="submit">
+
+        </form>
+
+    </body>
+</html>
